@@ -38,59 +38,59 @@
             // 
             // txtFullName
             // 
-            this.txtFullName.Location = new System.Drawing.Point(157, 36);
+            this.txtFullName.Location = new System.Drawing.Point(230, 39);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(301, 24);
+            this.txtFullName.Size = new System.Drawing.Size(301, 33);
             this.txtFullName.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 39);
+            this.label1.Location = new System.Drawing.Point(79, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 18);
+            this.label1.Size = new System.Drawing.Size(142, 29);
             this.label1.TabIndex = 3;
             this.label1.Text = "Full Name : ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 85);
+            this.label2.Location = new System.Drawing.Point(109, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 18);
+            this.label2.Size = new System.Drawing.Size(112, 29);
             this.label2.TabIndex = 5;
             this.label2.Text = "Gender : ";
             // 
             // comBoGender
             // 
             this.comBoGender.FormattingEnabled = true;
-            this.comBoGender.Location = new System.Drawing.Point(157, 81);
+            this.comBoGender.Location = new System.Drawing.Point(230, 84);
             this.comBoGender.Name = "comBoGender";
-            this.comBoGender.Size = new System.Drawing.Size(301, 26);
+            this.comBoGender.Size = new System.Drawing.Size(301, 37);
             this.comBoGender.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 131);
+            this.label3.Location = new System.Drawing.Point(53, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 18);
+            this.label3.Size = new System.Drawing.Size(168, 29);
             this.label3.TabIndex = 7;
             this.label3.Text = "Blood Group : ";
             // 
             // comboBloodGroup
             // 
             this.comboBloodGroup.FormattingEnabled = true;
-            this.comboBloodGroup.Location = new System.Drawing.Point(155, 128);
+            this.comboBloodGroup.Location = new System.Drawing.Point(228, 131);
             this.comboBloodGroup.Name = "comboBloodGroup";
-            this.comboBloodGroup.Size = new System.Drawing.Size(301, 26);
+            this.comboBloodGroup.Size = new System.Drawing.Size(301, 37);
             this.comboBloodGroup.TabIndex = 8;
             // 
             // RegistrationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 610);
+            this.ClientSize = new System.Drawing.Size(654, 610);
             this.Controls.Add(this.comboBloodGroup);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comBoGender);
@@ -98,7 +98,7 @@
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistrationForm";
             this.Text = "Registration";
             this.ResumeLayout(false);
